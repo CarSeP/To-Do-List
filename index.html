@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="svg/favicon.svg" type="image/x-icon">
+  <title>To Do List</title>
+</head>
+
+<body>
+  <div class="app">
+    <section class="container">
+      <h1 class="title">To Do List</h1>
+      <div class="input-container">
+        <input class="input" type="text" id="input" placeholder="Title task">
+        <button class="button" id="button">add</button>
+      </div>
+      <div class="label-container">
+        <span class="label select" id="all">All</span>
+        <span class="label" id="inc">Incomplete</span>
+        <span class="label" id="com">Completed</span>
+      </div>
+    </section>
+    <section class="container" id="container">
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

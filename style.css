@@ -1,0 +1,148 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #444444;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-size: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  user-select: none;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  background-color: transparent;
+  width: 400px;
+  height: 30px;
+  padding: 5px;
+  margin: 0;
+  font-size: 20px;
+  border: 2px solid #777777;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.button {
+  background-color: #777777;
+  border: 0;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 15px;
+  border-radius: 0 5px 5px 0;
+}
+
+.label-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.label {
+  background-color: #777777;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.select {
+  background-color: #333333;
+  color: white;
+}
+
+.error {
+  color: brown;
+}
+
+.card {
+  background-color: #777777;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card-title {
+  font-size: 25px;
+  user-select: none;
+  text-align: left;
+  overflow: hidden;
+  width: 350px;
+}
+
+.card-check {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.card-icon {
+  width: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 340px;
+    padding: 10px 10px;
+  }
+
+  .card-title {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 290px;
+  }
+
+  .card-title {
+    width: 150px;
+  }
+
+  .input {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 250px;
+    padding: 10px 5px;
+  }
+  .card-title {
+    width: 120px;
+  }
+}
